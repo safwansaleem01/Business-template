@@ -1,0 +1,229 @@
+/* 
+
+ .sign-in{
+    text-decoration: none;
+}
+
+.sign-up{
+    color: linear-gradient(50deg, #c381db, #4e92f9);
+}
+
+.fixed-top{
+     display: flex; 
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 64px;
+}
+
+.main{
+    background-image: url('images/hero-image.png');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    background-attachment: fixed;
+} 
+
+section {
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#home{
+    background-image: url('images/hero-image.png');
+    background-position: right bottom;
+}
+
+.bg-size {
+    background-size: cover;
+}
+.bg-holder {
+    background-image: url(assets/img/illustrations/heroheader-bg.png);
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    will-change: transform, opacity, filter;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.bg-holder {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    will-change: transform, opacity, filter;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    position: relative;
+} */
+
+
+body{
+    font-family: 'Nunito',sans-serif;
+    background-image: linear-gradient(96deg, rgba(195,129,219,0.121569), rgba(78,146,249,0.180392));
+}
+
+        /*  Buttons */
+
+.login{
+    color: #4E92F9;
+    text-decoration: none;
+}
+
+.signup{
+background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+border-color: #fff;
+background-color: #fff;
+}
+
+.demo-button{
+    background-image: linear-gradient(50deg, #c381db, #4e92f9);
+    color: #fff;
+    font-weight: 700;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-heading{
+    background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top: 10%;
+}
+.heading{
+    color: #485466;
+}
+
+                                /* Sections */
+
+#home{
+    background-image: url('images/hero-image.png');
+    background-position: right;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    background-attachment: fixed;
+} 
+
+#service{
+    text-align: center;
+}
+
+.service-headings{
+    font-size: 20px;
+}
+.feature-details{
+    margin-bottom: 50px;
+}
+.container-xl{
+    position: relative;
+}
+.circle-blend {
+    position: relative;
+}
+
+.flex-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.col-auto {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+}
+
+.row{
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+}
+.product-card-bg {
+    background-color: rgba(255,255,255,0.2);
+    -webkit-backdrop-filter: blur(2.875rem);
+    backdrop-filter: blur(2.875rem);
+    border: 0.125rem solid #fff;
+    border-radius: 5.375rem;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: 2.5rem;
+}
+
+.technolgy-heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+.technology-para{
+    color: #5A6980;
+}
+
+.text-gradient {
+background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+border: 1px #485466;
+}
+
+.team-section{
+    margin-top: 50px;
+}
+
+#testimonial{
+    margin-top: 50px;
+}
+
+#blog{
+    margin-top: 50px;
+}
+.blog{
+    margin-bottom: 30px;
+}
+
